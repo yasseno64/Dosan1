@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero"
 import Static from "../components/Static"
-import HowAreYou from "../components/HowAreYou"
+import WhoAre from "../components/WhoAre"
 import Solve from "../components/Solve";
 import Product from "../components/Product"
 import Services from "../components/Services";
@@ -20,7 +20,7 @@ const HomePage = () => {
         <main>
             <Hero/>
             <Static/>
-            <HowAreYou/>
+            <WhoAre/>
             <Solve/>
             <Product/>
             <Services/>

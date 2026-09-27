@@ -3,28 +3,23 @@ import CountUp from "../Animations/CountUp";
 const metrics = [
   {
     value: "117",
-    label: "مشروع تم تنفيذه",
-    note: "بنجاح في مختلف القطاعات",
+    label: "وحدة IntrCooll Plus في مصنع الفنار للتيار المستمر عالي الجهد"
   },
   {
     value: "35%",
-    label: "توفير في استهلاك",
-    note: "الطاقة في المشاريع الميدانية",
+    label: "توفير في طاقة المبردات باستخام PreCooll في داماك إدجنكس",
   },
   {
-    value: "49,623",
-    label: "توفير سنوي",
-    note: "في استهلاك الطاقة",
+    value: "49,623⃁",
+    label: "توفير شهري في إكسترا الورود",
   },
   {
     value: "66%",
-    label: "انخفاض في تكلفة",
-    note: "التبريد مقارنة بالأنظمة التقليدية",
+    label: "انخفاض في تكلفةالتبريد",
   },
   {
     value: "25°C",
-    label: "تريد مستوى الهواء في",
-    note: "الداخل أثناء التشغيل",
+    label: "تريد مستوى الهواء قبل",
   },
 ];
 
@@ -70,13 +65,13 @@ const Static = () => {
           </h5>
         </div>
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 xl:grid-cols-5">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 xl:grid-cols-5 ">
           {metrics.map((metric) => (
             <div
               key={metric.value}
               className="flex min-h-[210px] flex-col justify-end "
             >
-              <div className="text-[clamp(2rem,3vw,4rem)] font-bold leading-none tracking-[-0.06em] text-white">
+              <div className="text-[clamp(2rem,3vw,4rem)] font-bold leading-none tracking-[-0.06em] text-white ]">
                 <CountUp
                   from={0}
                   to={getNumber(metric.value)}
@@ -88,13 +83,11 @@ const Static = () => {
                 {metric.value.replace(/[0-9,.]/g, "")}
               </div>
 
-              <div className="mt-4 space-y-1 text-right">
-                <p className="text-[clamp(1rem,1.3vw,1.5rem)] leading-relaxed text-white/90">
+              <div className="mt-4 space-y-1 text-right mb-[150px]">
+                <p className="text-xs leading-relaxed text-gray-400">
                   {metric.label}
                 </p>
-                <p className="text-[clamp(0.8rem,1vw,1.1rem)] leading-relaxed text-white/60">
-                  {metric.note}
-                </p>
+                
               </div>
             </div>
           ))}

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-slate-950 text-white/75 px-4 md:px-12 lg:px-16 pb-10 md:pb-14 dir-rtl text-right font-sans">
+    <footer className="bg-[#043742] text-white/75 px-4 md:px-12 lg:px-16 pb-10 md:pb-14 dir-rtl text-right font-sans">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-12 py-10 md:py-16 border-t border-white/15">
           <div className="col-span-1">
@@ -29,6 +29,7 @@ const Footer = () => {
                 >
                   English
                 </a>
+
               </div>
             </div>
           </div>
@@ -139,8 +140,8 @@ const Footer = () => {
                 className="h-10 w-auto max-w-40 object-contain brightness-0 invert"
               />
             </a>
-            <p className="text-sm leading-relaxed mb-4 max-w-sm text-white/70">
-              تبريد بتكلفة تشغيل أقل. هندسة وتنفيذ أعمال MEP وتحليلات في مختلف
+            <p className="text-[10px]  leading-relaxed mb-2 max-w-sm text-white/70">
+              تبريد بتكلفة تشغيل أقل. هندسة وتنفيذ<br></br> أعمال MEP وتحليلات في مختلف
               مناطق المملكة.
             </p>
             <div className="text-sm leading-loose text-white/70">

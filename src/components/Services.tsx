@@ -129,8 +129,8 @@ const ServicesHeader: React.FC = () => {
 
         <div className="order-1 md:order-1 text-right">
         <div className="flex items-center justify-start gap-2 text-[#1cd2ad] text-xs md:text-sm mb-2">
-          الخدمات
           <span className="w-6 h-px bg-[#1cd2ad]" />
+          الخدمات
         </div>
         
         <h2 className="text-white text-[clamp(28px,4vw,42px)] font-bold leading-tight">
@@ -163,7 +163,7 @@ const ServicesHeader: React.FC = () => {
 
 const Services: React.FC = () => {
   return (
-    <div className="w-full bg-slate-900">
+    <div className="w-full bg-[#043742]">
 
       <div className="m-0">
         <ServicesHeader />

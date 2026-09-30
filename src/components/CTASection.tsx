@@ -13,8 +13,7 @@ const CTASection: React.FC<CTASectionProps> = ({
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
         style={{ backgroundImage: `url('${backgroundImageUrl}')` }}
       >
-        <div className="absolute inset-0 bg-slate-900/85 backdrop-blur-[1px]" />
-      </div>
+        <div className="absolute inset-0 bg-[#043742]/80 backdrop-blur-[1px]" /></div>
 
       <div className="relative z-10 max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center md:items-center justify-between gap-8 md:gap-12">
         <div className="shrink-0 w-full sm:w-auto flex justify-start md:justify-end">

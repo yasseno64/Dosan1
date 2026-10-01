@@ -164,14 +164,13 @@ const Footer = () => {
 
         <div className="flex flex-col-reverse sm:flex-row items-center justify-between gap-4 pt-6 border-t border-white/15 text-xs text-white/60">
           <div className="flex flex-wrap items-center gap-4 sm:gap-5 justify-center sm:justify-start">
-            <a href="#top" className="hover:text-white transition-colors">
-              الخصوصية
-            </a>
             <a
-              href="/sitemap.xml"
+              href="https://www.instagram.com/dosanenergy"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-white transition-colors"
             >
-              خريطة الموقع
+              Instagram
             </a>
             <a
               href="https://www.linkedin.com/company/dosanenergy"
@@ -182,17 +181,18 @@ const Footer = () => {
               LinkedIn
             </a>
             <a
-              href="https://www.instagram.com/dosanenergy"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/sitemap.xml"
               className="hover:text-white transition-colors"
             >
-              Instagram
+              خريطة الموقع
+            </a>
+            <a href="#top" className="hover:text-white transition-colors">
+              الخصوصية
             </a>
           </div>
 
           <span className="text-center sm:text-right">
-            © ٢٠٢٦ دوسان للطاقة. جميع الحقوق محفوظة.
+           .٢٠٢٦ دوسان للطاقة. جميع الحقوق محفوظة© 
           </span>
         </div>
       </div>

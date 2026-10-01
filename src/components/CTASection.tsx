@@ -19,7 +19,7 @@ const CTASection: React.FC<CTASectionProps> = ({
         <div className="shrink-0 w-full sm:w-auto flex justify-start md:justify-end">
           <a
             href="/ar/contact/"
-            className="inline-flex items-center justify-center w-full sm:w-auto px-4 py-1.5 bg-emerald-400 hover:bg-emerald-500 text-slate-950 font-semibold text-sm sm:text-base rounded-md transition-all duration-300 shadow-lg hover:shadow-emerald-400/20 active:scale-98"
+            className="inline-flex items-center justify-center w-full sm:w-auto px-4 py-3.5 bg-[#1cd2ad] hover:bg-emerald-500 text-slate-950 text-[30px] sm:text-base rounded-md transition-all duration-300 shadow-lg hover:shadow-emerald-400/20 active:scale-98"
           >
             اطلب تقييماً لموقعك
           </a>

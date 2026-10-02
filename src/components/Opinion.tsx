@@ -1,6 +1,6 @@
 const Opinion = () => {
   return (
-    <section className="w-full bg-white py-16 px-6 md:px-16 dir-rtl text-right font-sans">
+    <section className="w-full bg-white py-16 px-6 md:px-16 dir-rtl text-right ">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col-reverse md:flex-row justify-between items-start md:items-end mb-10 gap-4">
           <a

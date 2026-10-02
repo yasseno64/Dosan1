@@ -72,8 +72,8 @@ const Hero = () => {
                 </p>
               </div>
 
-              <h1 className="  lg:mr-[-125px] mr-[-40px]   max-w-[15ch] text-[min(clamp(41.3px,4.8vw,66.1px),8.8vh)] leading-none tracking-[clamp(-2px,-0.18vw,-0.6px)] font-bold text-white [text-wrap:balance] ">
-                تبريد بتكلفة تشغيل أقل.
+              <h1 className="      max-w-[15ch] text-[min(clamp(41.3px,4.8vw,66.1px),8.8vh)] leading-none tracking-[clamp(-2px,-0.18vw,-0.6px)] font-bold text-white [text-wrap:balance] ">
+                تبريد بتكلفة<br></br> تشغيل أقل.
               </h1>
 
               {/* Description */}

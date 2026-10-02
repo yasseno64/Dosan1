@@ -15,13 +15,13 @@ const services = [
 
 const HowAreYou = () => {
   return (
-    <section dir="rtl" className="bg-[#f9f9f9] py-16 m-20">
-      <h3 className="text-[#0D7A62] text-xs ">من نحن</h3>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <section dir="rtl" className=" py-16 m-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-3">
         {/**Left Content */}
         <div>
-          <h1 className="text-[#0A3948] text-4xl  font-bold">
-            فريق هندسي سعودي، مسؤول عن الرقم<br></br> في الفاتورة.
+      <h3 className="text-[#0D7A62] text-xs ">من نحن</h3>
+          <h1 className=" max-w-[900px] text-[#0A3948] text-4xl  font-bold">
+            فريق هندسي سعودي، مسؤول عن الرقم في الفاتورة.
           </h1>
           <p className="mt-7 text-gray-700 text-[14px] leading-6 tracking-tight">
             تعمل دوسان للطاقة من الرياض في مختلف مناطق المملكة. نوفر أفضل تقنيات
@@ -33,7 +33,7 @@ const HowAreYou = () => {
             فريق واحد مسؤول عن النتيجة، ولهذا تذكر دراسات الحالة لدينا نتائج
             الطاقة والتكلفة بدلاً من قوائم المعدات.
           </p>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-3 mt-3">
+          <div className="grid grid-cols-3 gap-8  mt-3">
             {services.map((service, index) => (
               <div
                 key={index}

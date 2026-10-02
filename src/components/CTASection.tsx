@@ -5,10 +5,10 @@ interface CTASectionProps {
 }
 
 const CTASection: React.FC<CTASectionProps> = ({
-  backgroundImageUrl = "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070",
+  backgroundImageUrl = "https://dosanenergy.com/assets/dosan-cta.webp",
 }) => {
   return (
-    <section className="relative min-h-[380px] md:min-h-[420px] flex items-center justify-between overflow-hidden dir-rtl font-sans text-right px-6 md:px-16 lg:px-24 py-12">
+    <section className="relative min-h-[480px] md:min-h-[520px] flex items-center justify-between overflow-hidden dir-rtl font-sans text-right px-6 md:px-16 lg:px-24 py-12">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
         style={{ backgroundImage: `url('${backgroundImageUrl}')` }}
